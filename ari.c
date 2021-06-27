@@ -1,5 +1,5 @@
 
-#include <cs50.h>
+
 string ari(string s){
   
 
@@ -38,62 +38,63 @@ string ari(string s){
     float k= 4.71*(float)count/space + 0.5*(float)space/sentence -21.43;
     int r = (int)k + 1;
     
-    
+    string a;
+
     switch(r){
    case 1  : 
-     char a[] = "Kindergarten";
+      a = "Kindergarten";
      return a;
      break;
    case 2 :
-     char a[] = "First/Second Grade";
+     a  = "First/Second Grade";
      return a;
      break;
    case 3 : 
-     char a[] = "Third Grade";
+     a = "Third Grade";
      return a;
      break;
    case 4 : 
-     char a[] = "Fourth Grade";
+     a = "Fourth Grade";
      return a; 
      break;
    case 5 : 
-     char a[] = " Fifth Grade";
+     a = " Fifth Grade";
      return a;
      break;
    case 6 : 
-     char a[] = "Sixth Grade";
+     a = "Sixth Grade";
      return a;
      break;
    case 7  : 
-     char a[] = "Seventh Grade";
+     a = "Seventh Grade";
      return a;
      break;
    case 8 : 
-      char a[] = "Eighth Grade"; 
+      a = "Eighth Grade"; 
       return a;
       break;
    case 9 : 
-      char a[] = "Ninth Grade";
+      a = "Ninth Grade";
       return a;
       break;
    case 10 : 
-      char a[] = "Tenth Grade";
+      a = "Tenth Grade";
       return a;
       break;
    case 11 : 
-    char a[] = "Eleventh Grade";
+    a = "Eleventh Grade";
     return a;
     break;
    case 12 : 
-    char a[] = "Twelfth grade";
+    a = "Twelfth grade";
     return a;
     break;
    case 13  : 
-    char a[] = "College student";
+    a = "College student";
     return a;
     break;
    case 14: 
-    char a[] = "Professor";
+    a = "Professor";
     return a;
     break;
   
