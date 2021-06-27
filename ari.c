@@ -79,7 +79,7 @@ string ari(string s){
       return a;
       break;
    case 11 : 
-    char a[] "Eleventh Grade";
+    char a[] = "Eleventh Grade";
     return a;
     break;
    case 12 : 
