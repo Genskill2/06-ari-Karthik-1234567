@@ -1,4 +1,4 @@
-
+#include <cs50.h>
 
 string ari(string s){
   
